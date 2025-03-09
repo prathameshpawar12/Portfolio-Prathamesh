@@ -1,0 +1,120 @@
+@import "tailwindcss";
+*{
+    /* font-family: 'Poppins'; */
+    scroll-behavior: smooth;
+}
+
+/* This is for locomotive-scroll */
+html.has-scroll-smooth {
+    overflow: hidden;
+  }
+  
+  html.has-scroll-dragging {
+    user-select: none;
+  }
+  
+  [data-scroll-container] {
+    min-height: 100vh;
+  }
+  
+
+
+/* this font is used for large div of hero.jsx */
+@font-face{
+    font-family: "anzo1";
+    src: url(./assets/file.woff2);
+}
+@font-face{
+    font-family: "nf";
+    src: url(./assets/namefont.woff2);
+}
+@font-face{
+    font-family: "gs";
+    src: url(./assets/GeneralSans-Medium.otf);
+}
+@font-face{
+    font-family: "gs1";
+    src: url(./assets/GeneralSans-Regular.otf);
+}
+::-webkit-scrollbar{
+    width: 6px;
+    
+}
+::-webkit-scrollbar-track{
+    background:rgba(24, 24, 24, 0.915);
+}   
+::-webkit-scrollbar-thumb{ 
+
+    border-radius: 10px ;
+    background: linear-gradient(to bottom, rgb(128, 128, 128), rgb(109, 109, 109));
+}
+
+#home{
+    position: relative;
+    perspective:1000px ;
+    background: 
+    
+    linear-gradient(to left, rgba(0, 0, 0, 0.716), rgba(1, 0, 2, 0)),
+    url('./assets/galaxy-night-panoramic.jpg') no-repeat center center/cover;
+}
+
+.myimg{
+    background-image: url("assets/aerial-closeup-shot-beautiful-moon-night.jpg");
+}
+
+#tiltDiv{
+    
+    width: fit-content;
+    
+}
+#bgtch{
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.027), rgba(0, 0, 0, 0.992)), 
+        url('./assets/astronaut.jpg') no-repeat center center/cover;
+}
+
+#con{
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.9)), 
+    url('./assets/contacto.avif') no-repeat center center/cover;
+}
+
+
+@keyframes marquee-left {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  
+  @keyframes marquee-right {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .animate-marquee-left {
+    display: inline-block;
+    width: 200%;
+    animation: marquee-left 40s linear infinite;
+  }
+  
+  .animate-marquee-right {
+    display: inline-block;
+    width: 200%;
+    animation: marquee-right 40s linear infinite;
+  }
+  
+  
+  .elem{
+    cursor: none !important;
+  }
+  
+  .elem:hover ~ .cursor-follower {
+    transform: scale(1.5);
+  }
