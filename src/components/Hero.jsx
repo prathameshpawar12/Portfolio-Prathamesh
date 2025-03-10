@@ -35,7 +35,7 @@ const Hero = () => {
       <div onMouseMove={(e)=>{
         mouseMoving(e)
         // bg-gradient-to-r from-black to-stone-600 
-        }} id='home' className=' relative px-40 h-[96vh] lg:rounded-[35px] rounded-[35px]
+        }} id='home'  className=' relative px-40 h-[96vh] lg:rounded-[35px] rounded-[35px]
          md:w-[97.4vw] w-[93vw]   flex items-center justify-center py-28 md:px-32 gap-90'>
         
         <motion.div initial={{y:150, opacity:0}}
@@ -63,7 +63,7 @@ const Hero = () => {
             
                 <img src={image} loading='lazy' alt="" className='w-[300px] mb-10 md:mb-0 cursor-pointer rounded-full  transition-all duration-300 
                 hover:-translate-y-5 hover:scale-103 hover:duration-800 shadow-2xl shadow-cyan-600 bg-transparent hover:brightness-80 hover:shadow-cyan-500 md:w-[350px]  
-                filter brightness-78 ' />
+                filter md:brightness-78 brightness-70' />
               </motion.div>
 
               <motion.div
