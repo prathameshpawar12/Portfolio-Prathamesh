@@ -126,6 +126,7 @@ const Projects = () => {
           <img 
             src={project.image} 
             alt={project.title} 
+            loading="lazy"
             className="lg:hidden rounded-2xl w-[80vw] h-[25vh] top-3"
           />
 

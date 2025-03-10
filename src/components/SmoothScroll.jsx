@@ -11,8 +11,8 @@ const SmoothScroll = ({ children }) => {
       locomotiveScroll.current = new LocomotiveScroll({
         el: scrollRef.current,
         smooth: true,
-        lerp: 0.08, // Lower values = smoother (default is 0.1)
-        multiplier: 0.8, // Adjust scrolling speed (lower = slower, smoother)
+        lerp: 0.07, // Lower values = smoother (default is 0.1)
+        multiplier: 0.7, // Adjust scrolling speed (lower = slower, smoother)
       });
     }
 

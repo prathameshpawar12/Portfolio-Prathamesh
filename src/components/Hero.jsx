@@ -61,7 +61,7 @@ const Hero = () => {
               animate={{scale:1, opacity:1}}
               transition={{duration:0.8, delay:0.2}}>
             
-                <img src={image} alt="" className='w-[300px] mb-10 md:mb-0 cursor-pointer rounded-full  transition-all duration-300 
+                <img src={image} loading='lazy' alt="" className='w-[300px] mb-10 md:mb-0 cursor-pointer rounded-full  transition-all duration-300 
                 hover:-translate-y-5 hover:scale-103 hover:duration-800 shadow-2xl shadow-cyan-600 bg-transparent hover:brightness-80 hover:shadow-cyan-500 md:w-[350px]  
                 filter brightness-78 ' />
               </motion.div>

@@ -112,7 +112,7 @@ const Contact = () => {
           ></textarea>
 
           <button
-            type="submit" className="ring-4 md:w-[10vw] w-[22vw] h-[10] md:h-[5vh] rounded-3xl md:mt-6 mt-10 font-[nf] hover:bg-gray-600 hover:shadow-2xl transition-all duration-300"
+            type="submit" className="ring-4 md:w-[10vw] w-[22vw] h-[3vh] md:h-[5vh] rounded-3xl md:mt-6 mt-10 font-[nf] hover:bg-gray-600 hover:shadow-2xl transition-all duration-300"
           >
             SUBMIT
           </button>
