@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import kanbanCoverImage from "../assets/kanbanCoverImage.png";
-import amazonui from "../assets/amazonui.png";
+import amazonui from "../assets/amazonui.jpg";
 import studentmanagement from "../assets/studentmanagement.png";
-import fantalandingpage from "../assets/fantalangingpage.png";
-import atmachine from "../assets/atmachine.png";
+import fantalandingpage from "../assets/fantalangingpag.jpeg";
+import atmachine from "../assets/atmachine.jpg";
 import gsap from "gsap";
 
 const Projects = () => {
