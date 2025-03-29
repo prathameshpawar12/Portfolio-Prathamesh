@@ -63,7 +63,7 @@ const Hero = () => {
             
                 <img src={image} loading='lazy' alt="" className='w-[300px] mb-10 md:mb-0 cursor-pointer rounded-full  transition-all duration-300 
                 hover:-translate-y-5 hover:scale-103 hover:duration-800 shadow-2xl shadow-cyan-600 bg-transparent hover:brightness-80 hover:shadow-cyan-500 md:w-[350px]  
-                filter md:brightness-78 brightness-70' />
+                filter md:brightness-78 brightness-80' />
               </motion.div>
 
               <motion.div
