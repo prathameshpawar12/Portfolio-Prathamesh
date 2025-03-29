@@ -15,14 +15,14 @@ const Projects = () => {
       title: "Kanban Board",
       description: "Full stack Kanban Board project created using React js for frontend, Express js for backend and MySQL as a database.",
       github: "https://github.com/yourusername/kanban-board",
-      
+      demo: "https://kanban-board-prathamesh.netlify.app/",
     },
     {
       image: studentmanagement,
       title: "Student Management",
       description: "Full stack Student management system project created using React js for frontend, Spring boot for backend and MySQL as a database.",
       github: "https://github.com/prathameshpawar12",
-      
+      demo: "https://student-management-by-prathamesh.netlify.app/",
     },
     {
       image: fantalandingpage,
