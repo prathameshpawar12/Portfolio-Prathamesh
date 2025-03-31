@@ -9,34 +9,34 @@ import gsap from "gsap";
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
   const projectsData = [
-    
+    {
+      image: fantalandingpage,
+      title: "Budweiser Landing Page",
+      description: "Made Budweiser landing page using gsap with th help of html, css and javascript..",
+      demo: "https://budweiser-landing-page-by-prathamesh.netlify.app/",
+      github: "https://github.com/prathameshpawar12/Fanta-landing-page",
+    },
     {
       image: kanbanCoverImage,
       title: "Kanban Board",
       description: "Full stack Kanban Board project created using React js for frontend, Express js for backend and MySQL as a database.",
-      github: "https://github.com/yourusername/kanban-board",
       demo: "https://kanban-board-prathamesh.netlify.app/",
+      github: "https://github.com/yourusername/kanban-board",
     },
     {
       image: studentmanagement,
       title: "Student Management",
       description: "Full stack Student management system project created using React js for frontend, Spring boot for backend and MySQL as a database.",
-      github: "https://github.com/prathameshpawar12",
       demo: "https://student-management-by-prathamesh.netlify.app/",
+       github: "https://github.com/prathameshpawar12",
     },
-    {
-      image: fantalandingpage,
-      title: "Fanta Landing Page",
-      description: "Made fanta landing page using gsap with th help of html, css and javascript..",
-      github: "https://github.com/prathameshpawar12/Fanta-landing-page",
-      demo: "https://prathamesh-fanta-landing-page.netlify.app/",
-    },
+    
     {
       image: amazonui,
       title: "Amazon UI Clone",
       description: "A front-end clone of Amazon’s interface created using html, css and javascript.",
-      github: "https://github.com/prathameshpawar12/Amazon-clone-HTML-CSS",
       demo: "https://amazonbyprathamesh.netlify.app/",
+      github: "https://github.com/prathameshpawar12/Amazon-clone-HTML-CSS",
     },
     {
       image: atmachine,
