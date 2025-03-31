@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import kanbanCoverImage from "../assets/kanbanCoverImage.png";
 import amazonui from "../assets/amazonui.jpg";
 import studentmanagement from "../assets/studentmanagement.png";
-import fantalandingpage from "../assets/fantalandingpag.jpeg";
+import fantalandingpage from "../assets/fantalandingpag.png";
 import atmachine from "../assets/atmachine.jpg";
 import gsap from "gsap";
 
