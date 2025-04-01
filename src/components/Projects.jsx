@@ -12,7 +12,7 @@ const Projects = () => {
     {
       image: fantalandingpage,
       title: "Budweiser Landing Page",
-      description: "Made Budweiser landing page using gsap with th help of html, css and javascript..",
+      description: "Made a Responsive Budweiser landing page using gsap with th help of html, css and javascript..",
       demo: "https://budweiser-landing-page-by-prathamesh.netlify.app/",
       github: "https://github.com/prathameshpawar12/Fanta-landing-page",
     },
